@@ -288,6 +288,7 @@ const TimelineGraphView = (function() {
 
     /**
      * Draws the graph on |canvas_|.
+     * 
      */
     repaint: function() {
       this.repaintTimerRunning_ = false;
